@@ -1,16 +1,30 @@
-{
-  "posts" : [{
-    "0" : {
-      "title" : "Owl Cafe",
-      "body" : "Very best Coffee!",
-      "teaser" : "Teaser - Very best Coffee!",
-      "owner" : "Kristian Wilson",
-      "image" : "https://typeset-beta.imgix.net/2017%2F1%2F10%2F474390681.jpg?w=470&h=245&fit=crop&crop=faces&auto=format&q=70"
-    }
+
+{ "posts": [{
+    "title": "Veruca Salt",
+    "body": "San Francisco",
+    "teaser": "Estate",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+    "owner": "Frank",
+  }, {
+    "title": "Veruca Pepper",
+    "body": "San Francisco",
+    "teaser": "Estate",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+    "owner": "Frank",
+  }, {
+    "title": "Frank Salt",
+    "body": "San Francisco",
+    "teaser": "Estate",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+    "owner": "Frank",
   }],
   "comments": [{
     "author": "Salt",
-    "rating": "4",
+    "rating": 4,
+    "content": "Tasty",
+  }, {
+    "author": "Pepper",
+    "rating": 4,
     "content": "Tasty",
   }]
 }
