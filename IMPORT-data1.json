@@ -1,0 +1,11 @@
+{
+  "posts" : {
+    "0" : {
+      "title" : "Owl Cafe",
+      "body" : "Very best Coffee!",
+      "teaser" : "Teaser - Very best Coffee!",
+      "owner" : "Kristian Wilson",
+      "image" : "https://typeset-beta.imgix.net/2017%2F1%2F10%2F474390681.jpg?w=470&h=245&fit=crop&crop=faces&auto=format&q=70"
+    }
+  }
+}
