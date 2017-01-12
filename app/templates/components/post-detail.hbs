@@ -1,7 +1,14 @@
-{{post.title}}
-{{post.body}}
-{{post.teaser}}
-{{post.owner}}
-<img src={{post.image}}/>
 
-<button class="btn btn-danger"{{action 'delete' post}}>Delete</button>
+<div class="well">
+<div class="left-image">
+
+</div>
+<div id="right-post-detail">
+  <span class="pull-left"><img src={{post.image}}/></span>
+  <span class="post-title">{{post.title}}</span><br>
+  <span class="">{{post.body}}</span><br><br><br><br>
+  <span class="">By {{post.owner}}</span>
+</div>
+<button class="btn btn-danger pull-right button-up"{{action 'delete' post}}>Delete</button>
+
+</div>

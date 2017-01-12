@@ -1,27 +1,27 @@
 {{#if addNewPost}}
-<div>
+<div id="new-post-form" class="well">
   <form>
     <div  class="form-group">
       <label for="type">Title</label>
-      {{input value=title id="title"}}
+      {{input class="form-control" value=title id="title"}}
     </div>
     <div  class="form-group">
       <label for="type">Teaser</label>
-      {{input value=teaser id="teaser"}}
+      {{input class="form-control" value=teaser id="teaser"}}
     </div>
     <div  class="form-group">
       <label for="type">Body</label>
-      {{input value=body id="body"}}
+      {{input class="form-control" value=body id="body"}}
     </div>
     <div  class="form-group">
       <label for="owner">Owner</label>
-      {{input value=owner id="owner"}}
+      {{input class="form-control" value=owner id="owner"}}
     </div>
     <div  class="form-group">
       <label for="image">Image URL</label>
-      {{input value=image id="image"}}
+      {{input class="form-control" value=image id="image"}}
     </div>
-       <button {{action 'savePost1'}}>Save</button>
+       <button class="btn btn-success"{{action 'savePost1'}}>Save</button>
   </form>
 </div>
 {{else}}

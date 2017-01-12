@@ -1,3 +1,58 @@
 li {
   list-style-type: none;
 }
+left-image, img {
+  height: 350px;
+  margin-right: 20px;
+}
+
+#right-post-detail {
+height: 350px;
+}
+
+#new-post-form{
+  background-color: #d2d2d2;
+  padding: 20px;
+  width: 300px;
+}
+
+#bg {
+  background-image: url('http://media.dcentertainment.com/sites/default/files/GalleryChar_1900x900_JusticeLeague_52ab8e54d0a6f0.42170553.jpg');
+  height: 200px;
+  background-size: 1200px 569px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.post-title {
+  font-size: 2em;
+}
+
+.button-up {
+  margin-top: -40px;
+}
+
+a:link {
+  list-style-type: none;
+  text-decoration: none;
+    color: #222;
+}
+
+a:active {
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+}
+
+a:visited {
+  list-style-type: none;
+  text-decoration: none;
+  color: #222;
+}
+
+a:hover {
+  list-style-type: none;
+  text-decoration: none;
+  color: #666;
+}

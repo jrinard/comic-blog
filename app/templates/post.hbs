@@ -1,7 +1,8 @@
-<h2>{{model.title}}'s {{model.body}}</h2>
+<div class="pull-right">
+{{update-post post=model update="update"}}<br>
+</div>
 
-
-{{update-post post=model update="update"}}
+<h2>{{model.title}}</h2>
 
 
 {{post-detail post=model destroyPost="destroyPost"}}
