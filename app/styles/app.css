@@ -15,7 +15,6 @@ height: 350px;
   padding: 20px;
   width: 300px;
 }
-
 #bg {
   background-image: url('http://media.dcentertainment.com/sites/default/files/GalleryChar_1900x900_JusticeLeague_52ab8e54d0a6f0.42170553.jpg');
   height: 200px;
@@ -25,12 +24,24 @@ height: 350px;
   border-radius: 0px 0px 10px 10px;
 }
 
+
+
+.main-box {
+  width: 550px;
+  margin-right: 20px;
+}
+
+#comment-bottom {
+  clear:both;
+}
+
 .post-title {
   font-size: 2em;
 }
 
 .button-up {
-  margin-top: -40px;
+  margin-top: -10px;
+  margin-right: 20px;
 }
 
 a:link {

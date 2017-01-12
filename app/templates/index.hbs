@@ -1,8 +1,10 @@
-<h2>Home</h2>
-
 <div class="pull-right button-up">
 {{new-post savePost2="savePost3"}} <br>
 </div>
+
+<h2>Home</h2>
+
+
 
 
   {{#each model.posts as |post|}}
@@ -11,6 +13,7 @@
 
 
 
+<div id="comment-bottom">
 
   {{#each model.comments as |comment|}}
     <li>{{comment.rating}} - {{comment.content}} - by {{comment.author}}</li>
@@ -18,4 +21,6 @@
 
 <div class="pull-right">
 {{new-comment saveComment="saveComment"}}
+</div>
+
 </div>
