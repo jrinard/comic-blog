@@ -5,5 +5,6 @@ export default DS.Model.extend({
   image: DS.attr(),
   owner: DS.attr(),
   teaser: DS.attr(),
-  title: DS.attr()
+  title: DS.attr(),
+  comments: DS.hasMany('comment', { async: true })
 });
